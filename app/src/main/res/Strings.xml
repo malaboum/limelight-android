@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PC view menu entries -->
+    <string name="pcview_menu_app_list">Voir la liste de jeux</string>
+    <string name="pcview_menu_pair_pc">Appairage avec l'ordinateur</string>
+    <string name="pcview_menu_unpair_pc">Rompre l'appairage</string>
+    <string name="pcview_menu_send_wol">Envoi d'une requete Wake-On-LAN</string>
+    <string name="pcview_menu_delete_pc">Supprimer l'ordinateur</string>
+
+    <!-- Pair messages -->
+    <string name="pairing">Appairage…</string>
+    <string name="pair_pc_offline">L'ordinateur est éteint</string>
+    <string name="pair_pc_ingame">L'ordinateur est actuellement dans un jeu, veuillez quitter celui ci avant l'appairage</string>
+    <string name="pair_pairing_title">Appairage</string>
+    <string name="pair_pairing_msg">Entrez ce code PIN sur l'ordinateur cible</string>
+    <string name="pair_incorrect_pin">Code PIN incorrect</string>
+    <string name="pair_fail">Appairage échoué</string>
+
+    <!-- WOL messages -->
+    <string name="wol_pc_online">Ordinateur allumé</string>
+    <string name="wol_no_mac">Impossible de reveiller l'ordinateur car GFE n'as pas spécifié l'adresse MAC</string>
+    <string name="wol_waking_pc">Reveil de l'ordinateur</string>
+    <string name="wol_waking_msg">L'ordinateur va mettre quelques secondes pour démarrer, si il ne le fait pas veuillez verifier que le Wake On Lan est correctement configuré</string>
+    <string name="wol_fail">Envoi de la requete Wake On Lan échoué</string>
+
+    <!-- Unpair messages -->
+    <string name="unpairing">Rompre l'appairage</string>
+    <string name="unpair_success">Appairage correctement rompu</string>
+    <string name="unpair_fail">Echec de la suppression d'appairage</string>
+    <string name="unpair_error">Les périphériques ne sont pas appairé</string>
+
+    <!-- Errors -->
+    <string name="error_pc_offline">L'ordinateur est éteint</string>
+    <string name="error_manager_not_running">Le service de gestion de l'ordinateur est inactif, patientez quelques secondes ou redemarez l'application</string>
+    <string name="error_unknown_host">Ordinateur hote non trouvé</string>
+    <string name="error_404">GFE a retourné une erreur 404 soyez sur que l'ordinateur est allumé et que son GPU est supporté.
+	    L'utilisation du bureau à distance peu aussi causer cette erreur, essayez de redemarré l'ordinateur ou de réinstaller GFE</string>
+
+    <!-- Start application messages -->
+    <string name="conn_establishing_title">Etablissement de la connection</string>
+    <string name="conn_establishing_msg">Démarage de la connection</string>
+    <string name="conn_metered">Attention votre connection active utilise des données mobiles, soyez sur de disposer du forfait adéquat</string>
+    <string name="conn_client_latency">Latence du périphérique client:</string>
+    <string name="conn_client_latency_hw">Latence du decodeur matériel:</string>
+    <string name="conn_hardware_latency">Latence moyenne du décodeur matériel:</string>
+    <string name="conn_starting">Démarage</string>
+    <string name="conn_error_title">Erreur de connection</string>
+    <string name="conn_error_msg">Démarage echoué</string>
+    <string name="conn_terminated_title">Connection terminée</string>
+    <string name="conn_terminated_msg">La connection a été interompue</string>
+
+    <!-- General strings -->
+    <string name="ip_hint">Adresse IP de l'ordinateur hote GeForce</string>
+    <string name="searching_pc">Recherche d'ordinateur…</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="lost_connection">Connection perdue avec l'ordinateur</string>
+
+    <!-- AppList activity -->
+    <string name="title_applist">Application en cours</string>
+    <string name="applist_menu_resume">Reprendre la session</string>
+    <string name="applist_menu_quit">Terminer la session</string>
+    <string name="applist_menu_quit_and_start">Terminer la session actuelle et en redemarer une nouvelle</string>
+    <string name="applist_menu_cancel">Annuler</string>
+    <string name="applist_refresh_title">Liste d'applications</string>
+    <string name="applist_refresh_msg">Actualisation des applications</string>
+    <string name="applist_refresh_error_title">Erreur</string>
+    <string name="applist_refresh_error_msg">Impossible d'obtenir la liste d'applications</string>
+    <string name="applist_quit_app">Arret</string>
+    <string name="applist_quit_success">Arret réussi</string>
+    <string name="applist_quit_fail">Arret echoué</string>
+    <string name="applist_quit_confirmation">Etes vous sur de vouloir quitter l'application en cours? Toutes les données non sauvegardées seront perdues</string>
+
+    <!-- Add computer manually activity -->
+    <string name="title_add_pc">Ajouter un ordinateur manuellement</string>
+    <string name="msg_add_pc">Connection à l'ordinateur</string>
+    <string name="addpc_fail">Impossible de se connecter à l'ordinateur indiqué.  Verifiez que les ports sont bien ouvert dans votre  pare feu</string>
+    <string name="addpc_success">Ajout d'ordinateur réussi</string>
+    <string name="addpc_unknown_host">Impossible d'acceder à l'adresse de l'ordinateur. Verifiez l'adresse IP de celui ci.</string>
+    <string name="addpc_enter_ip">Vous devez entrer une adresse IP</string>
+
+    <!-- Preferences -->
+    <string name="category_basic_settings">Reglages basiques</string>
+    <string name="title_resolution_list">Choix de la résolution et du nombre d'IPS</string>
+    <string name="summary_resolution_list">Un réglage trop élevé peut causer des ralentissements.</string>
+    <string name="title_seekbar_bitrate">Choix du bitrate vidéo</string>
+    <string name="summary_seekbar_bitrate">Un reglage faible reduira les ralentissements. Un réglage élevé produira une image de meilleur qualitée.</string>
+    <string name="suffix_seekbar_bitrate">Mbps</string>
+    <string name="title_checkbox_stretch_video">Etirer la vidéo en mode plein ecran</string>
+    <string name="title_checkbox_disable_warnings">Désactiver les messages d'avertissements</string>
+    <string name="summary_checkbox_disable_warnings">Désactive les avertissements de problèmes de connection en cours de streaming</string>
+
+    <string name="category_gamepad_settings">Paramètres manette</string>
+    <string name="title_checkbox_multi_controller">Support de connections de manettes multiple</string>
+    <string name="summary_checkbox_multi_controller">Si décoché toutes les manettes connectées apparaitrons comme une seule</string>
+    <string name="title_seekbar_deadzone">Ajustement de la zone morte analogique</string>
+    <string name="suffix_seekbar_deadzone">%</string>
+
+    <string name="category_ui_settings">Paramètres d'interface</string>
+    <string name="title_language_list">Langue</string>
+    <string name="summary_language_list">Langue utilisée par Limelight</string>
+    <string name="title_checkbox_list_mode">Affichage en vue liste à la place de la vue grille</string>
+    <string name="summary_checkbox_list_mode">Affiche les ordinateurs et les applications en vue liste</string>
+    <string name="title_checkbox_small_icon_mode">Utiliser de petits icones</string>
+    <string name="summary_checkbox_small_icon_mode">L'utilisation de petits icones permet d'en afficher un plus grand nombre</string>
+
+    <string name="category_host_settings">Paramètres de l'ordinateur hote</string>
+    <string name="title_checkbox_enable_sops">Optimise les paramètres graphigues</string>
+    <string name="summary_checkbox_enable_sops">Autorise GFE à modifier les paramètres graphiques pour un streaming optimal</string>
+    <string name="title_checkbox_host_audio">Lire l'audio sur l'ordinateur hote</string>
+    <string name="summary_checkbox_host_audio">Lit l'audio sur l'ordinateur hote et sur cet appareil</string>
+
+    <string name="category_advanced_settings">Patamètres avancés</string>
+    <string name="title_decoder_list">Changement du moteur de rendu</string>
+    <string name="summary_decoder_list">Un décodage logiciel augmentera la latence</string>
+</resources>
